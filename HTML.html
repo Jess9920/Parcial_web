@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parcial</title>
+</head>
+
+<body>
+  <div class="principal_form">
+    <h1>WebDeveloper</h1>
+    <div class="formulario_afiliacion">
+      <div class="formulario">
+        <h3>Formulario de afiliación</h3>
+        <form name="formulario" id="formulario">
+          <div class="input-container">
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              required="obligatorio"
+              placeholder="Nombre completo"
+            />
+            <i class="fa fa-user icon"></i>
+          </div>
+
+          <div class="input-container">
+            <input
+              type="text"
+              name="email"
+              id="email"
+              required="obligatorio"
+              placeholder="Email"
+            />
+            <i class="fa fa-envelope icon"></i>
+          </div>
+          <div class="input-container">
+            <input
+              type="number"
+              name="telefono"
+              id="telefono"
+              required="obligatorio"
+              placeholder="Telefono"
+            />
+            <i class="fa fa-phone icon"></i>
+          </div>
+          <div class="flexContainer">
+            <input type="text" class="inputField" id="gusto" />
+            <button class="boton_gustos" id="guardarGustos">Gustos</button>
+          </div>
+        </form>
+      </div>
+      <div class="tabla">
+        <div class="bandera">
+          <i class="fa fa-flag iconflag"></i>
+        </div>
+        <table class="default" id="datosTabla">
+          <tr>
+            <th>Gusto</th>
+
+            <th>%</th>
+
+            <th>Edit</th>
+          </tr>
+        </table>
+      </div>
+
+      <div class="editando" id="editando">
+        <h3>
+          Pulse Aceptar para guardar los cambios o cancelar para anularlos
+        </h3>
+        <button id="aceptarCambios">Aceptar</button>
+        <button id="cancelarCambios">Cancelar</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>

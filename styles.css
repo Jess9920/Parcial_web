@@ -1,0 +1,170 @@
+.principal_form {
+  text-align: center;
+  align-items: center;
+}
+
+.formulario_afiliacion {
+  align-items: center;
+  margin-left: 35%;
+  border-style: ridge;
+  width: 600px;
+  background-color: white;
+}
+
+.formulario_resultado {
+  align-items: center;
+  margin-left: 45%;
+  border-style: ridge;
+  width: 300px;
+  background-color: rgb(0, 183, 255);
+}
+
+.tabla {
+  align-items: center;
+  border-style: ridge;
+  width: 80%;
+  margin-left: 10%;
+  background-color: white;
+  min-height: 60px;
+  margin-bottom: 15px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input-container {
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10%;
+  width: 80%;
+  border-style: inset;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  padding: 1px;
+  border: 2px solid gray;
+}
+
+.icon {
+  padding: 10px;
+  background: white;
+  color: gray;
+  min-width: 30px;
+  text-align: center;
+}
+
+.iconsmile {
+  padding: 1px;
+  color: gray;
+  min-width: 30px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  border-style: none;
+  min-height: 40px;
+}
+
+.boton_gustos {
+  border-style: inset;
+  background: white;
+  border-radius: 8px;
+  padding: 5px;
+  border: 2px solid rgba(4, 168, 4, 0.903);
+  color: rgba(4, 168, 4, 0.903);
+
+  margin-bottom: 15px;
+}
+
+body {
+  background-color: rgba(124, 216, 216, 0.409);
+}
+
+.flexContainer {
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.inputField {
+  flex: 1;
+  border-style: inset;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  padding: 1px;
+  border: 2px solid gray;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.bandera {
+  flex: 1;
+  border-style: inset;
+  border-radius: 8px;
+  padding: 1px;
+  border: 2px solid rgba(4, 168, 4, 0.903);
+  min-width: 50px;
+  background-color: rgba(4, 168, 4, 0.903);
+}
+
+.iconflag {
+  padding: 10px;
+  background: rgba(4, 168, 4, 0.903);
+  color: white;
+  min-width: 30px;
+  text-align: center;
+}
+
+.editando {
+  display: none;
+}
+
+.textoazul {
+  color: white;
+  background-color: rgb(0, 183, 255);
+  text-align: end;
+  margin-left: auto;
+  margin-right: 2px;
+}
+
+.textoverde {
+  color: white;
+  background-color: rgb(0, 255, 140);
+  text-align: end;
+  margin-left: auto;
+  margin-right: 2px;
+}
+.textorojo {
+  color: white;
+  background-color: rgb(255, 68, 0);
+  text-align: end;
+  margin-left: auto;
+  margin-right: 2px;
+}
+
+.itemsresultado {
+  background-color: #a79b9b;
+  width: 100%;
+  margin-left: 0%;
+
+  border: 1px solid rgb(12, 1, 1);
+}
+
+.texto {
+  margin-left: 10%;
+}
